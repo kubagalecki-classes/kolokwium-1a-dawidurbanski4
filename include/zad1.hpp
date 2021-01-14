@@ -11,7 +11,7 @@ class Tagliatelle
   public:
   Tagliatelle(double& l, double& w, double& r): L(l), W(w), R(r){}
   Tagliatelle(): L(0.5), W(0.5), R(0.5){}
-  double ileMaki (unsigned& P) const {
+  double ileMaki (unsigned double& P) const {
     return P*L*W*(1. - R)*C;
   }
 

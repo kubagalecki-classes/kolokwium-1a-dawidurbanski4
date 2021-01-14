@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 language = "bash"
+=======
+language = "cpp"
+>>>>>>> origin/master
 run = "chmod +x build-and-run.sh; ./build-and-run.sh"
