@@ -6,7 +6,23 @@
 
 // Zad1
 // tutaj definicja klasy Tagliatelle
-class Tagliatelle
+
+
+class Makaron 
+{
+  public:
+  double ileMaki(unsigned) const =0;
+  Makaron* gotujMakaron(std::string a)
+  if(a.front==a.back){
+    return new Tagliatelle(3.14,0.42,0.1);
+  }else{
+    return new Penne;
+  }
+  }
+
+}
+
+class Tagliatelle : public Makaron
 {
   public:
   Tagliatelle(): L(0.5), W(0.5), R(0.5) {}
