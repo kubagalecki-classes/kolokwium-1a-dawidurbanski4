@@ -4,9 +4,6 @@
 #include <string>
 #include <type_traits>
 
-// tutaj klasa Penne
-
-// tutaj definicja metody gotujMakaron
 
 class Penne : public Makaron
 {
@@ -16,9 +13,10 @@ class Penne : public Makaron
 	}
 };
 
-Makaron* Makaron::gotujMakaron(const std::string& s)
+
+Makaron* Makaron::gotujMakaron(const std::string& str)
 {
-	if(s.front() == s.back())
+	if(str.front() == str.back())
 	{
 		return new Tagliatelle{3.14, 0.42, 0.1};
 	}
