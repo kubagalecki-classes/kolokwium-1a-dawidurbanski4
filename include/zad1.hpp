@@ -7,7 +7,7 @@
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
-
+/*
 class Makaron 
 {
   public:
@@ -18,10 +18,11 @@ class Makaron
   }else{
     return new Penne;
   }
-  }
+
+  ~Makar
 
 }
-
+*/
 class Tagliatelle : public Makaron
 {
   public:
