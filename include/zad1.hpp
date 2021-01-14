@@ -10,7 +10,7 @@
 class Makaron 
 { 
 public:
-    static Makaron* gotujMakaron(const std::string& str);
+    static Makaron* gotujMakaron(const std::string& s);
     virtual double ileMaki(unsigned P) const = 0;
 };
 
@@ -24,8 +24,8 @@ public:
         return P * L * W * (1. - R) * C;
     }
 private:
-    double L; //dlugosc makaronu
-    double W; //szerokosc kawalka makaronu
-    double R; //propocja jajek do maki
-    static const double C;  //pewna stala
+    double L; 
+    double W; 
+    double R; 
+    static const double C;  
 };
